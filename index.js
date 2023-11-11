@@ -73,4 +73,19 @@ async function main() {
         console.error('Unknown shape type');
         return;
     }
+
+  // Use Node's built-in 'fs' module to write the SVG content to a file
+  const fs = (await import('fs')).promises;
+  try {
+    // Write the SVG content to logo.svg
+    await fs.writeFile('logo.svg', svgContent);
+    console.log(' Your logo has been crafted and saved as logo.svg!');
+  } catch (err) {
+    // Catch and log any errors in the process
+    console.error('Error writing SVG to file:', err);
+  }
 }
+
+// Invoke the main function to run the script
+main();
+// Run the script with node index.js
