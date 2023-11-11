@@ -14,14 +14,16 @@ async function main() {
         type: 'input',
         name: 'text',
         message: 'What text do you want in the logo (up to 3 characters)?',
-        validate: input => input.length <= 3 || 'Text must be up to 3 characters long.'
+        validate: input => input.length <= 3 || 'Text must be up to 3 characters long.',
+        default: 'SVG'
       },
       // Prompt to select the shape of the logo
       {
         type: 'list',
         name: 'shape',
         message: 'What shape do you want for your logo?',
-        choices: ['Triangle', 'Circle', 'Square']
+        choices: ['Triangle', 'Circle', 'Square'],
+        default: 'Triangle'
       },
       // Prompt for the color of the text in the logo
       {

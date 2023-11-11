@@ -1,4 +1,4 @@
-<svg width="300" height="200" xmlns="http://www.w3.org/2000/svg">
+    <svg width="300" height="200" xmlns="http://www.w3.org/2000/svg">
     <style>
       text {
         font-family: 'Arial', sans-serif;
@@ -6,4 +6,4 @@
         text-anchor: middle;
       }
     </style>
-    <polygon points="150,10 250,190 50,190" fill="red" /><text x="150" y="100" font-size="40" fill="white">dt3</text></svg>
+    <polygon points="150,10 250,190 50,190" fill="black" /><text x="150" y="100" font-size="40" fill="white">SVG</text></svg>
