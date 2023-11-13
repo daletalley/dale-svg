@@ -41,7 +41,7 @@ npm test
 The SVG Logo Maker is not deployed. To use the application, follow the [usage](#usage) instructions above.
 
 ## Screenshots
-![Screenshot of the SVG Logo Maker application](./assets/images/screenshot.png)
+<img width="648" alt="Screenshot 2023-11-13 at 12 16 15 AM" src="https://github.com/daletalley/dale-svg/assets/134656450/81e6d3d7-cc9f-47a4-b8d7-13d9a4c7e40a">
 
 ## Acknowledgments
 
@@ -49,3 +49,7 @@ The SVG Logo Maker is not deployed. To use the application, follow the [usage](#
 - **Inquirer.js**: For the interactive command line user interface.
 - **Jest**: For providing the testing framework.
 - **Shields.io**: For the README badges.
+
+## Video Submission
+https://github.com/daletalley/dale-svg/assets/134656450/ca9f4856-2275-4b46-bf1f-794da99be94b
+
